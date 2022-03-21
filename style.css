@@ -104,3 +104,62 @@ img {
   }
   
 }
+
+@media screen and (max-width: 419px){
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  #steps .row{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 25px;
+  }
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  #steps h1{
+    padding-bottom: 20px;
+  }
+  #steps .row img{
+    width: 30%;
+    height: 100%;
+  }
+}
+
+
+@media screen and (max-width: 419px){
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  #why{
+    background-color: #f2f2cd;
+
+  }
+  #why .row{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 15px;
+  }
+  
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    width: 100%;
+    padding-bottom: 20px;
+    margin-top: 0;
+  }
+  #why h1{
+    padding-bottom: 20px;
+  }
+  #why .row img{
+    width: 30%;
+    height: 100%;
+  }
+}
